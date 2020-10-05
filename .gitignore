@@ -2,3 +2,6 @@
 *.sw[po]
 .python-version
 README.html
+*-bak
+*-cache.lib
+fp-info-cache

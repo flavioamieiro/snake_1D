@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Snake_1D)(type KiCad)(uri /home/amieiro/hacking/Snake_1D/hardware/Snake_1d)(options "")(descr ""))
+)
