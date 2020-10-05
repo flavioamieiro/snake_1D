@@ -1,10 +1,14 @@
-(module SPI_pads_2.54mm (layer F.Cu) (tedit 5F7B204F)
-  (fp_text reference REF** (at 0 -5.08) (layer F.SilkS) hide
+(module SPI_pads_2.54mm (layer F.Cu) (tedit 5F7B3029)
+  (fp_text reference REF** (at 0 -6.35) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value SPI_pads_2.54mm (at 0 5.08) (layer F.Fab)
+  (fp_text value SPI_pads_2.54mm (at 0 6.35) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_line (start -3.81 -5.08) (end 3.81 -5.08) (layer F.CrtYd) (width 0.12))
+  (fp_line (start 3.81 -5.08) (end 3.81 5.08) (layer F.CrtYd) (width 0.12))
+  (fp_line (start 3.81 5.08) (end -3.81 5.08) (layer F.CrtYd) (width 0.12))
+  (fp_line (start -3.81 5.08) (end -3.81 -5.08) (layer F.CrtYd) (width 0.12))
   (pad 1 connect rect (at -1.27 -2.54) (size 1.524 1.524) (layers F.Cu F.Mask))
   (pad 2 connect circle (at 1.27 -2.54) (size 1.524 1.524) (layers F.Cu F.Mask))
   (pad 3 connect circle (at -1.27 0) (size 1.524 1.524) (layers F.Cu F.Mask))
