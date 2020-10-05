@@ -540,4 +540,56 @@ Wire Notes Line
 	1650 5550 4050 5550
 Wire Notes Line
 	1650 3850 4050 3850
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5F7C9071
+P 8500 5000
+F 0 "H1" H 8600 5049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8600 4958 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8500 5000 50  0001 C CNN
+F 3 "~" H 8500 5000 50  0001 C CNN
+	1    8500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5F7C9967
+P 8900 5000
+F 0 "H2" H 9000 5049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9000 4958 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8900 5000 50  0001 C CNN
+F 3 "~" H 8900 5000 50  0001 C CNN
+	1    8900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5F7C9DFF
+P 8700 5250
+F 0 "#PWR020" H 8700 5000 50  0001 C CNN
+F 1 "GND" H 8705 5077 50  0000 C CNN
+F 2 "" H 8700 5250 50  0001 C CNN
+F 3 "" H 8700 5250 50  0001 C CNN
+	1    8700 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 5100 8500 5250
+Wire Wire Line
+	8500 5250 8700 5250
+Wire Wire Line
+	8900 5100 8900 5250
+Wire Wire Line
+	8900 5250 8700 5250
+Connection ~ 8700 5250
+Wire Notes Line
+	7300 4600 10300 4600
+Wire Notes Line
+	10300 4600 10300 5550
+Wire Notes Line
+	10300 5550 7300 5550
+Wire Notes Line
+	7300 5550 7300 4600
+Text Notes 7350 4700 0    50   ~ 0
+Mounting holes
 $EndSCHEMATC
