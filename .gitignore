@@ -1,7 +1,9 @@
 *.pyc
 *.sw[po]
+*.zip
 .python-version
 README.html
 *-bak
 *-cache.lib
 fp-info-cache
+Gerber/
