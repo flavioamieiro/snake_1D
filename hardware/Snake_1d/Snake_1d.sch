@@ -348,7 +348,7 @@ U 1 1 5F83F6AB
 P 7650 3650
 F 0 "SW1" V 7696 3602 50  0000 R CNN
 F 1 "SW_Push" V 7605 3602 50  0000 R CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 7650 3850 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7650 3850 50  0001 C CNN
 F 3 "~" H 7650 3850 50  0001 C CNN
 	1    7650 3650
 	0    -1   -1   0   
