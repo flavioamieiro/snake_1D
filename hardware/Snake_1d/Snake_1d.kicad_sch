@@ -1795,7 +1795,7 @@
     (property "Value" "LED_strip_connector" (id 1) (at 76.9112 111.0742 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 76.2 110.49 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" (id 2) (at 76.2 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 76.2 110.49 0)
@@ -2003,7 +2003,7 @@
       (reference "H2") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
     (path "/00000000-0000-0000-0000-00005f7faa68"
-      (reference "J1") (unit 1) (value "LED_strip_connector") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "J1") (unit 1) (value "LED_strip_connector") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005f806264"
       (reference "J2") (unit 1) (value "SPI") (footprint "Snake_1D:SPI_pads_2.54mm")

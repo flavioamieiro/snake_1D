@@ -373,7 +373,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Snake_1d.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -409,7 +409,7 @@
   },
   "sheets": [
     [
-      "2e213068-d4b9-40c7-8200-2e224c0a8b7a",
+      "f6db0aa0-2629-4322-a533-a6373801727f",
       ""
     ]
   ],
